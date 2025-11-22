@@ -3397,6 +3397,7 @@ a.contact-link img {}
 
 	.footer-col.contacts-col {
 		order: 2;
+		margin-top: 30px;
 	}
 
 	.footer-col {
