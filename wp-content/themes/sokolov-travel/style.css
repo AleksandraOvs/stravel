@@ -3263,6 +3263,10 @@ a.contact-link img {}
 		padding: 0 15px;
 	}
 
+	.header-right {
+		display: none;
+	}
+
 	.services-cat__item {
 		width: calc(100% / 2 - 20px);
 	}
@@ -3336,10 +3340,6 @@ a.contact-link img {}
 	.map-inner {
 		position: relative;
 		height: 430px;
-	}
-
-	.header-right {
-		display: none;
 	}
 
 	.site-branding {
