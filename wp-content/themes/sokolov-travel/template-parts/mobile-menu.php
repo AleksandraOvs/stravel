@@ -1,16 +1,5 @@
 <div class="mobile-menu">
 
-    <nav id="site-navigation" class="main-navigation">
-
-        <?php wp_nav_menu([
-            'container' => false,
-            'theme_location'  => 'menu-main',
-            'walker' => new My_Custom_Walker_Nav_Menu,
-            'depth'           => 2,
-        ]); ?>
-
-    </nav><!-- #site-navigation -->
-
     <div class="mobile-menu__inner">
         <?php
         // Адрес
@@ -32,5 +21,18 @@
             <p><?php echo $address ?></p>
             </div>
     </div>
+
+
+    <nav id="site-navigation" class="main-navigation">
+
+        <?php wp_nav_menu([
+            'container' => false,
+            'theme_location'  => 'menu-main',
+            'walker' => new My_Custom_Walker_Nav_Menu,
+            'depth'           => 2,
+        ]); ?>
+
+    </nav><!-- #site-navigation -->
+
 
 </div>

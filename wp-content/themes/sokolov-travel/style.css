@@ -2759,6 +2759,7 @@ a.contact-link img {}
 
 	.main-navigation li {
 		padding: 0;
+		padding-bottom: 7px;
 	}
 
 	.mobile-menu .main-navigation ul li ul {
