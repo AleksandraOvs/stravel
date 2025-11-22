@@ -203,9 +203,6 @@ main#primary {
 	padding-top: 0;
 }
 
-#primary.single-temp {
-	padding-top: 140px;
-}
 
 .container.content-100 {
 	background: var(--light);
