@@ -22,9 +22,9 @@
         $btn_link = carbon_get_theme_option('crb_button_link');
         ?>
 
-        <?php get_template_part('template-parts/contacts') ?>
-
-
+        <div class="_desk_hidden">
+            <?php get_template_part('template-parts/contacts') ?>
+        </div>
         <?php if ($address_icon): $address_icon_url = wp_get_attachment_image_url($address_icon, 'full'); ?>
             <div class="mm-contact">
                 <img src="<?php echo $address_icon_url ?>" alt="Адреса" />
