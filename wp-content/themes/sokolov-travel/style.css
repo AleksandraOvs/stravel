@@ -720,10 +720,10 @@ table {
 	padding-top: 30px;
 }
 
-.entry-content figure {
+/* .entry-content figure {
 	max-height: 400px;
 	margin: 20px 0;
-}
+} */
 
 /* Links
 --------------------------------------------- */
@@ -1568,6 +1568,7 @@ h2.wp-block-heading {
 	display: grid;
 	justify-content: space-between;
 	grid-template-columns: 2fr 1fr;
+	padding-bottom: 30px;
 }
 
 .section-map {
@@ -3230,6 +3231,12 @@ a.contact-link img {}
 		width: 100%;
 		text-align: center;
 		align-items: center;
+	}
+
+	.site-footer__inner {
+		display: grid;
+		justify-content: space-between;
+		grid-template-columns: 1fr;
 	}
 
 }

@@ -73,36 +73,36 @@ function register_post_types()
     ]);
 
     // CPT: Команда
-    register_post_type('team', [
-        'label'  => null,
-        'labels' => [
-            'name'               => 'Наша команда',
-            'singular_name'      => 'Сотрудник',
-            'add_new'            => 'Добавить сотрудника',
-            'add_new_item'       => 'Добавление сотрудника',
-            'edit_item'          => 'Редактировать',
-            'new_item'           => 'Новый сотрудник',
-            'view_item'          => 'Перейти',
-            'search_items'       => 'Искать сотрудника',
-            'not_found'          => 'Не найдено',
-            'not_found_in_trash' => 'Не найдено',
-            'parent_item_colon'  => '',
-            'menu_name'          => 'Команда',
-        ],
-        'public'             => true,
-        'show_in_nav_menus'  => true,
-        'show_in_menu'       => true,
-        'show_in_rest'       => true,
-        'menu_position'      => 3,
-        'menu_icon'          => get_template_directory_uri() . '/images/svg/team.svg',
-        'hierarchical'       => false,
-        'supports'           => ['title', 'thumbnail', 'editor', 'excerpt'],
-        'taxonomies'         => ['post_tag'], // только теги
-        'has_archive' => 'team',
-        'rewrite' => [
-            'slug' => 'team',
-            'with_front' => false,
-        ],
-        'query_var'          => 'team',
-    ]);
+    // register_post_type('team', [
+    //     'label'  => null,
+    //     'labels' => [
+    //         'name'               => 'Наша команда',
+    //         'singular_name'      => 'Сотрудник',
+    //         'add_new'            => 'Добавить сотрудника',
+    //         'add_new_item'       => 'Добавление сотрудника',
+    //         'edit_item'          => 'Редактировать',
+    //         'new_item'           => 'Новый сотрудник',
+    //         'view_item'          => 'Перейти',
+    //         'search_items'       => 'Искать сотрудника',
+    //         'not_found'          => 'Не найдено',
+    //         'not_found_in_trash' => 'Не найдено',
+    //         'parent_item_colon'  => '',
+    //         'menu_name'          => 'Команда',
+    //     ],
+    //     'public'             => true,
+    //     'show_in_nav_menus'  => true,
+    //     'show_in_menu'       => true,
+    //     'show_in_rest'       => true,
+    //     'menu_position'      => 3,
+    //     'menu_icon'          => get_template_directory_uri() . '/images/svg/team.svg',
+    //     'hierarchical'       => false,
+    //     'supports'           => ['title', 'thumbnail', 'editor', 'excerpt'],
+    //     'taxonomies'         => ['post_tag'], // только теги
+    //     'has_archive' => 'team',
+    //     'rewrite' => [
+    //         'slug' => 'team',
+    //         'with_front' => false,
+    //     ],
+    //     'query_var'          => 'team',
+    // ]);
 }
