@@ -68,12 +68,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--dark: #02225B;
 	--accent: #dfbb39;
 	--light-accent: #fbf5e1;
-	;
-	--dark: #155ECB;
+	--dark: #313131;
 	--light: #E9EEF8;
 	--overlay-gradient: linear-gradient(35deg, rgba(2, 34, 91, 1) 0%, rgba(64, 109, 176, 0) 100%);
-	;
-	--accent-gradient: linear-gradient(164deg, rgba(21, 94, 203, 1) 0%, rgba(60, 134, 245, .8) 100%);
+	--accent-gradient: linear-gradient(164deg, rgba(223, 187, 57, 1) 0%, rgba(251, 245, 225, 1) 100%);
 	/* --dark: #313131;
 	--main: #5B6ED1;
 	--blue: #3F50B1;
@@ -801,7 +799,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	color: #fff;
+	color: var(--black);
 	cursor: pointer;
 	padding: 10px 25px;
 	background: var(--accent-gradient);
