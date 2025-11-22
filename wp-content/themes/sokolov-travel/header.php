@@ -80,10 +80,6 @@
 					]); ?>
 				</nav><!-- #site-navigation -->
 			</div>
-			<?php
-			if (is_front_page()):
-				get_template_part('template-parts/running-stroke');
-			endif;
-			?>
+
 		</header><!-- #masthead -->
 		<?php get_template_part('template-parts/mobile-menu') ?>
