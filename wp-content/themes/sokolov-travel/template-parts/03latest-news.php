@@ -17,12 +17,14 @@ if ($blog_query->have_posts()) :
         <div class="container">
             <div class="posts-header">
                 <h2 class="title">Последние записи</h2>
-                <a href="/blog" class="button">Смотреть все</a>
+                <a href="/blog" class="button _mob_hidden">Смотреть все</a>
             </div>
             <div class="posts-list">
                 <?php while ($blog_query->have_posts()) : $blog_query->the_post(); ?>
                     <?php get_template_part('template-parts/content-post'); ?>
                 <?php endwhile; ?>
+
+                <a href="/blog" class="button _desk_hidden">Смотреть все</a>
             </div>
         <?php
     else :

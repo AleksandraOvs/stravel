@@ -69,7 +69,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--accent: #dfbb39;
 	--light-accent: #fbf5e1;
 	--dark: #313131;
-	--light: #E9EEF8;
+	--light: #f8f6e9;
 	--overlay-gradient: linear-gradient(35deg, rgba(2, 34, 91, 1) 0%, rgba(64, 109, 176, 0) 100%);
 	--accent-gradient: linear-gradient(164deg, rgba(223, 187, 57, 1) 0%, rgba(251, 245, 225, 1) 100%);
 	/* --dark: #313131;
@@ -183,6 +183,9 @@ h4 {
 	line-height: 120%;
 }
 
+._mob_hidden {
+	display: none;
+}
 
 .center {
 	text-align: center;
@@ -2077,6 +2080,10 @@ a.square-thumbnail:hover img {
 }
 
 /*POSTS LIST*/
+.posts-section {
+	background: var(--light);
+}
+
 .posts-list {
 	display: flex;
 	flex-direction: column;
@@ -3295,7 +3302,11 @@ a.contact-link img {}
 
 
 	._mob_hidden {
-		display: none;
+		display: none !important;
+	}
+
+	._desk_hidden {
+		display: block !important;
 	}
 
 	.main-form-section__content {
@@ -3323,6 +3334,16 @@ a.contact-link img {}
 	.site-branding {
 		display: flex;
 		align-items: center;
+	}
+
+	.posts-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.post-list__item {
+		width: 100%;
+		gap: 20px;
 	}
 
 	section.hero img {
@@ -3465,6 +3486,26 @@ a.contact-link img {}
 		display: block;
 	}
 
+	.post-list__item {
+		flex-direction: column;
+	}
+
+	.post-list__item__thumbnail {
+		width: 100%;
+		height: 300px;
+	}
+
+	.post-list__item__thumbnail img {
+		object-fit: cover;
+		object-position: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	.post-list__item__content {
+		width: 100%;
+	}
+
 	.section-advantages__item::before {
 		content: none;
 	}
@@ -3594,6 +3635,11 @@ a.contact-link img {}
 	.breadcrumbs__list {
 		font-size: 12px;
 		flex-wrap: wrap;
+	}
+
+	h2 {
+		font-size: 20px;
+		font-weight: 500;
 	}
 
 

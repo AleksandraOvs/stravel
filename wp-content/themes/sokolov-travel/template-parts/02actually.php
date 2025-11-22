@@ -7,7 +7,7 @@ if (!empty($selected)):
         <div class="container">
             <div class="posts-header">
                 <h2 class="title">Актуальные события</h2>
-                <a href="/calendar" class="button">Смотреть все</a>
+                <a href="/calendar" class="button _mob_hidden">Смотреть все</a>
             </div>
 
             <div class="actually-posts__grid">
@@ -15,16 +15,17 @@ if (!empty($selected)):
                 <?php foreach ($selected as $item):
 
                     $post_id = $item['id'];
-                    $post = get_post($post_id);   // ← загрузили нужный пост
-                    setup_postdata($post);        // ← сделали его текущим
+                    $post = get_post($post_id);
+                    setup_postdata($post);
                 ?>
 
                     <?php get_template_part('template-parts/content-actually'); ?>
 
                 <?php endforeach; ?>
 
-                <?php wp_reset_postdata(); // ← вернули глобальные данные 
+                <?php wp_reset_postdata();
                 ?>
+                <a href="/calendar" class="button _desk_hidden">Смотреть все</a>
             </div>
         </div>
     </section>
