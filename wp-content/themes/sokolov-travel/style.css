@@ -3599,9 +3599,9 @@ a.contact-link img {}
 		flex-direction: column;
 	}
 
-	.mobile-menu {
+	/* .mobile-menu {
 		padding: 80px 10px 10px;
-	}
+	} */
 
 	.mm-contact {
 		display: none;
