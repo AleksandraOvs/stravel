@@ -22,6 +22,7 @@ $strokes = carbon_get_theme_option('crb_rs_text');
         overflow: hidden;
         position: relative;
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .marquee__inner {

@@ -1223,7 +1223,7 @@ section.hero img {
 }
 
 section.hero {
-	padding-top: 20px;
+	padding-top: 0;
 }
 
 .swiper-slide.hero-slide {
