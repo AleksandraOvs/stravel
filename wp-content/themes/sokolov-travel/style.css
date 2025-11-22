@@ -3437,7 +3437,7 @@ a.contact-link img {}
 	.footer-columns__first .custom-logo-link {
 		width: 260px;
 		height: 80px;
-		margin: 0 auto;
+		margin: 0 auto 10px;
 		display: block;
 	}
 
