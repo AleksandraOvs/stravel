@@ -3534,6 +3534,12 @@ a.contact-link img {}
 		transform: none;
 	}
 
+	.contact__link {
+		width: 30px;
+		height: 30px;
+		padding: 5px;
+	}
+
 	.faq-question p {
 		font-size: 18px;
 	}
