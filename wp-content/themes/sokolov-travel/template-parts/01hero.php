@@ -3,9 +3,7 @@ $slides = carbon_get_post_meta(get_the_ID(), 'crb_dest_hero_slider');
 ?>
 
 <section class="hero">
-    <?php
-    get_template_part('template-parts/running-stroke');
-    ?>
+
     <div class="container">
         <?php
         $slides = carbon_get_the_post_meta('crb_dest_hero_slider');
@@ -46,6 +44,8 @@ $slides = carbon_get_post_meta(get_the_ID(), 'crb_dest_hero_slider');
         <?php endif; ?>
 
     </div>
-
+    <?php
+    get_template_part('template-parts/running-stroke');
+    ?>
 
 </section>
