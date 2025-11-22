@@ -20,19 +20,21 @@
             <?php endif; ?>
             <p><?php echo $address ?></p>
             </div>
+
+            <nav id="site-navigation" class="main-navigation">
+
+                <?php wp_nav_menu([
+                    'container' => false,
+                    'theme_location'  => 'menu-main',
+                    'walker' => new My_Custom_Walker_Nav_Menu,
+                    'depth'           => 2,
+                ]); ?>
+
+            </nav><!-- #site-navigation -->
     </div>
 
 
-    <nav id="site-navigation" class="main-navigation">
 
-        <?php wp_nav_menu([
-            'container' => false,
-            'theme_location'  => 'menu-main',
-            'walker' => new My_Custom_Walker_Nav_Menu,
-            'depth'           => 2,
-        ]); ?>
-
-    </nav><!-- #site-navigation -->
 
 
 </div>
