@@ -2730,6 +2730,14 @@ a.contact-link img {}
 		transition: all .5s ease-in-out; */
 	}
 
+	.mobile-menu nav ul li.menu-item.menu-item-has-children a::after {
+		content: none;
+	}
+
+	.mobile-menu nav ul li.menu-item.menu-item-has-children a {
+		font-weight: 500;
+	}
+
 	#site-navigation ul ul.dropdown-menu li {
 		align-items: flex-start;
 		padding: 0;
