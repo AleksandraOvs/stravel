@@ -3772,12 +3772,12 @@ a.contact-link img {}
 
 @media (max-width: 375px) {
 
-	.container {
+	/* .container {
 		width: 330px;
 		padding: 0 10px;
 		margin: 0 auto;
 		position: relative;
-	}
+	} */
 
 	.slider-activities__button-prev,
 	.slider-activities__button-next,
