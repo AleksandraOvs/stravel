@@ -3271,6 +3271,12 @@ a.contact-link img {}
 @media(max-width: 1024px) {
 
 
+	.container {
+		width: 900px;
+		padding: 0 40px;
+		margin: 0 auto;
+		position: relative;
+	}
 
 	.hero-content__inner {
 		width: 100%;
@@ -3332,6 +3338,13 @@ a.contact-link img {}
 }
 
 @media(max-width: 768px) {
+	.container {
+		width: 576px;
+		padding: 0 40px;
+		margin: 0 auto;
+		position: relative;
+	}
+
 	h1 {
 		font-size: 48px;
 	}
@@ -3491,6 +3504,13 @@ a.contact-link img {}
 }
 
 @media(max-width: 576px) {
+	.container {
+		width: 480px;
+		padding: 0 40px;
+		margin: 0 auto;
+		position: relative;
+	}
+
 	h1 {
 		font-size: 28px;
 	}
@@ -3652,6 +3672,13 @@ a.contact-link img {}
 }
 
 @media (max-width: 480px) {
+	.container {
+		width: 400px;
+		padding: 0 40px;
+		margin: 0 auto;
+		position: relative;
+	}
+
 	#site-navigation ul ul.dropdown-menu li {
 		width: 100%;
 	}
@@ -3708,6 +3735,13 @@ a.contact-link img {}
 }
 
 @media (max-width: 375px) {
+
+	.container {
+		width: 300px;
+		padding: 0 40px;
+		margin: 0 auto;
+		position: relative;
+	}
 
 	.slider-activities__button-prev,
 	.slider-activities__button-next,
