@@ -3298,10 +3298,6 @@ a.contact-link img {}
 		padding: 0 15px;
 	}
 
-	.header-right {
-		display: none;
-	}
-
 	.services-cat__item {
 		width: calc(100% / 2 - 20px);
 	}
@@ -3368,6 +3364,10 @@ a.contact-link img {}
 
 	.main-form-section__content {
 		width: 100%;
+	}
+
+	.breadcrumbs__list {
+		display: none;
 	}
 
 	.main-form-img {
