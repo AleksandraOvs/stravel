@@ -56,7 +56,7 @@
 
 		<div class="footer-bottom">
 			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
-			<a href="/policy" class="footer-link">Политика конфиденциальности</a>
+			<!-- <a href="/policy" class="footer-link">Политика конфиденциальности</a>-->
 		</div>
 
 	</div><!-- .site-footer__inner -->
