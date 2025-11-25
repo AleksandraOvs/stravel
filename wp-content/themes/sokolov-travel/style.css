@@ -1108,6 +1108,11 @@ header.site-header {
 	font-size: 20px;
 }
 
+.top-header__link img {
+	width: 30px;
+	height: 30px;
+}
+
 .top-header__address {
 	display: flex;
 	gap: 5px;
@@ -3504,7 +3509,7 @@ a.contact-link img {}
 
 @media(max-width: 576px) {
 	.container {
-		width: 480px;
+		width: 540px;
 		padding: 0 40px;
 		margin: 0 auto;
 		position: relative;
@@ -3672,7 +3677,7 @@ a.contact-link img {}
 
 @media (max-width: 480px) {
 	.container {
-		width: 400px;
+		width: 440px;
 		padding: 0 40px;
 		margin: 0 auto;
 		position: relative;
@@ -3736,7 +3741,7 @@ a.contact-link img {}
 @media (max-width: 375px) {
 
 	.container {
-		width: 320px;
+		width: 330px;
 		padding: 0 10px;
 		margin: 0 auto;
 		position: relative;
