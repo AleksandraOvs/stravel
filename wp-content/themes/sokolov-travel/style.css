@@ -2310,9 +2310,9 @@ section.contact-form-section {
 .entry-content .post-thumbnail {
 	width: 100%;
 	max-width: 600px;
-	height: 450px;
 	overflow: hidden;
 	border-radius: 3px;
+	margin: 0 auto;
 }
 
 .entry-content img {
