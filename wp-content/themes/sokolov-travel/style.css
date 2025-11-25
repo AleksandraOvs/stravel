@@ -2324,6 +2324,11 @@ section.contact-form-section {
 	object-position: center;
 }
 
+img.aligncenter {
+	max-width: 100%;
+	height: auto;
+}
+
 .entry-content iframe {
 	width: 100%;
 	height: max-content;
