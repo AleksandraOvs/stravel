@@ -3383,6 +3383,25 @@ a.contact-link img {}
 		width: 100%;
 	}
 
+	.site-header__inner {
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	.header-right {
+		order: 1;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.site-branding {
+		order: 2;
+	}
+
+	.menu-toggle {
+		order: 3;
+	}
+
 	.map-inner {
 		position: relative;
 		height: 430px;
@@ -3517,25 +3536,6 @@ a.contact-link img {}
 
 	h1 {
 		font-size: 24px;
-	}
-
-	.site-header__inner {
-		flex-wrap: wrap;
-		gap: 10px;
-	}
-
-	.header-right {
-		order: 1;
-		width: 100%;
-		justify-content: space-between;
-	}
-
-	.site-branding {
-		order: 2;
-	}
-
-	.menu-toggle {
-		order: 3;
 	}
 
 	.top-header__link {
