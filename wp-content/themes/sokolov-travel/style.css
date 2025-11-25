@@ -920,6 +920,7 @@ section {
 	color: var(--grey);
 	text-decoration: none;
 	transition: all .5s linear;
+	font-size: 12px;
 }
 
 .breadcrumbs__list a:hover {
@@ -928,8 +929,10 @@ section {
 
 .breadcrumbs__list {
 	display: flex;
+	margin-bottom: 10px;
 	align-items: center;
 	gap: 10px;
+	font-size: 12px;
 	padding-bottom: 10px;
 	position: relative;
 	border-bottom: 1px solid var(--grey);
