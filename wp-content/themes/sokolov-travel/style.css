@@ -901,7 +901,7 @@ textarea {
 # Components
 --------------------------------------------------------------*/
 .container {
-	width: 1600px;
+	width: 1440px;
 	padding: 0 40px;
 	margin: 0 auto;
 	position: relative;
@@ -3140,9 +3140,9 @@ a.contact-link img {}
 	}
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1440px) {
 	.container {
-		width: 1200px;
+		width: 100%;
 		padding: 0 40px;
 		margin: 0 auto;
 	}
@@ -3153,11 +3153,6 @@ a.contact-link img {}
 }
 
 @media(max-width:1200px) {
-	.container {
-		width: 1024px;
-		padding: 0 40px;
-		margin: 0 auto;
-	}
 
 	.site-header__top-header {
 		font-size: 12px;
@@ -3254,11 +3249,7 @@ a.contact-link img {}
 }
 
 @media(max-width: 1024px) {
-	.container {
-		width: 900px;
-		padding: 0 40px;
-		margin: 0 auto;
-	}
+
 
 
 	.hero-content__inner {
