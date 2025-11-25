@@ -7,7 +7,7 @@ new Swiper('.hero-slider', {
     clickable: true,
   },
   autoplay: {
-    delay: 3000,
+    delay: 7500,
     disableOnInteraction: false,
   },
   loop: true,
