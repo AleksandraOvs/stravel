@@ -25,16 +25,15 @@ get_header();
 
 	<div class="container">
 
-		<div class="container__inner">
-			<div class="entry-content">
-				<?php if (has_post_thumbnail()) : ?>
-					<div class="post-thumbnail">
-						<?php the_post_thumbnail('full'); ?>
-					</div>
-				<?php endif; ?>
-				<?php the_content() ?>
-			</div>
+		<div class="entry-content">
+			<?php if (has_post_thumbnail()) : ?>
+				<div class="post-thumbnail">
+					<?php the_post_thumbnail('full'); ?>
+				</div>
+			<?php endif; ?>
+			<?php the_content() ?>
 		</div>
+
 
 		<?php if (is_active_sidebar('sidebar-1')) : ?>
 			<aside id="secondary" class="widget-area">

@@ -3138,8 +3138,9 @@ a.contact-link img {}
 
 @media (max-width: 1600px) {
 	.container {
-		width: 100%;
+		width: 1200px;
 		padding: 0 40px;
+		margin: 0 auto;
 	}
 
 	.top-header__address p {
@@ -3148,6 +3149,12 @@ a.contact-link img {}
 }
 
 @media(max-width:1200px) {
+	.container {
+		width: 1024px;
+		padding: 0 40px;
+		margin: 0 auto;
+	}
+
 	.site-header__top-header {
 		font-size: 12px;
 	}
@@ -3243,6 +3250,13 @@ a.contact-link img {}
 }
 
 @media(max-width: 1024px) {
+	.container {
+		width: 900px;
+		padding: 0 40px;
+		margin: 0 auto;
+	}
+
+
 	.hero-content__inner {
 		width: 100%;
 		text-align: center;
