@@ -2313,8 +2313,9 @@ section.contact-form-section {
 
 .entry-content img {
 	width: 100%;
-	aspect-ratio: 1/1;
 	max-width: 100%;
+	/* aspect-ratio: 1/1;
+	max-width: 100%; */
 	object-fit: contain;
 	object-position: center;
 }
