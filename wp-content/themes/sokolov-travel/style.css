@@ -3443,10 +3443,10 @@ a.contact-link img {}
 		flex-direction: column;
 	}
 
-	.entry-content .post-thumbnail {
+	/* .entry-content .post-thumbnail {
 		width: 100%;
 		height: 240px;
-	}
+	} */
 
 	.footer-col.contacts-col {
 		order: 2;
