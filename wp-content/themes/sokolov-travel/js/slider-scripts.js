@@ -5,7 +5,12 @@ new Swiper('.hero-slider', {
   pagination: {
     el: '.slider-pagination',
     clickable: true,
-  }
+  },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  loop: true,
 });
 
 new Swiper('.posts-swiper', {
