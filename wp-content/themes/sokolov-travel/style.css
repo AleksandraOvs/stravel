@@ -907,7 +907,7 @@ textarea {
 --------------------------------------------------------------*/
 .container {
 	width: 1440px;
-	padding: 0 40px;
+	padding: 0 20px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -3521,6 +3521,7 @@ a.contact-link img {}
 
 	.site-header__inner {
 		flex-wrap: wrap;
+		gap: 10px;
 	}
 
 	.header-right {
@@ -3538,7 +3539,8 @@ a.contact-link img {}
 	}
 
 	.top-header__link {
-		font-size: 16px;
+		font-size: 12px;
+		align-items: center;
 	}
 
 	.hero-description {
@@ -3700,7 +3702,7 @@ a.contact-link img {}
 @media (max-width: 480px) {
 	.container {
 		width: 440px;
-		padding: 0 40px;
+		padding: 0 10px;
 		margin: 0 auto;
 		position: relative;
 	}
