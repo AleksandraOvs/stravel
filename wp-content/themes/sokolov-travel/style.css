@@ -3351,8 +3351,8 @@ a.contact-link img {}
 
 @media(max-width: 768px) {
 	.container {
-		width: 576px;
-		padding: 0 40px;
+		width: 100%;
+		padding: 0 20px;
 		margin: 0 auto;
 		position: relative;
 	}
