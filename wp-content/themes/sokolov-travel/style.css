@@ -1111,8 +1111,8 @@ header.site-header {
 }
 
 .top-header__link img {
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 }
 
 .top-header__address {
@@ -1139,7 +1139,7 @@ header.site-header {
 .contact__link {
 	display: flex;
 	padding: 10px;
-	background: var(--grey);
+	background: var(--accent);
 	border-radius: 8px;
 	width: 40px;
 	height: 40px;
@@ -1150,7 +1150,7 @@ header.site-header {
 }
 
 .contact__link:hover {
-	background: var(--accent);
+	background: var(--grey);
 }
 
 .contact__link img {
@@ -3647,8 +3647,8 @@ a.contact-link img {}
 	}
 
 	.contact__link {
-		width: 30px;
-		height: 30px;
+		width: 40px;
+		height: 40px;
 		padding: 5px;
 	}
 
@@ -3740,6 +3740,11 @@ a.contact-link img {}
 
 	.section-categories {
 		padding: 30px 0;
+	}
+
+	.top-header__links {
+		flex-direction: column;
+		gap: 5px;
 	}
 
 	.category-subcategories {
