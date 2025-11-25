@@ -6,11 +6,13 @@ new Swiper('.hero-slider', {
     el: '.slider-pagination',
     clickable: true,
   },
+  speed: 1200,
+  loop: true,
   autoplay: {
     delay: 7500,
     disableOnInteraction: false,
   },
-  loop: true,
+  effect: 'slide',
 });
 
 new Swiper('.posts-swiper', {
