@@ -1890,12 +1890,7 @@ h2.wp-block-heading {
 
 /*CATEGORY PAGE*/
 
-.category-page>.container {
-	display: grid;
-	gap: 40px;
-	grid-template-columns: 3fr 1fr;
-	margin-top: 30px;
-}
+.category-page>.container {}
 
 .widget-area {
 	padding: 0;
