@@ -703,6 +703,10 @@ table {
 	margin: 20px 0;
 }
 
+.entry-content figure {
+	width: 100% !important;
+}
+
 .entry-content ol li:not(:last-child) {
 	margin-bottom: 7px;
 }
