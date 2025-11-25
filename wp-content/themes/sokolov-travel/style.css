@@ -136,8 +136,9 @@ main {
  */
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 24px;
 	margin: 0;
+	text-transform: uppercase;
 	line-height: 120%;
 	font-weight: 400;
 }
@@ -3511,7 +3512,7 @@ a.contact-link img {}
 	}
 
 	h1 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	.hero-description {
