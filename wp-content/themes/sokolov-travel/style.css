@@ -2116,6 +2116,12 @@ a.square-thumbnail:hover img {
 	border-radius: 3px;
 }
 
+.post-list__item__thumbnail img {
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	object-position: Center;
+}
+
 .post-list__item__content {
 	width: calc(100% - 290px);
 	display: flex;
